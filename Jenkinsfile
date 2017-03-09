@@ -3,7 +3,7 @@
 node {
    // Invoke Bookstore Build to create the bookstore.war file
    stage 'Build bookstore'
-   build 'bookstore'
+   //build 'bookstore'
 
    // Invoke OpenShift Build to package the bookstore.war file
    // with the S2I image.
